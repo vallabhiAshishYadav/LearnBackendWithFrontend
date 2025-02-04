@@ -15,7 +15,6 @@ function Header() {
     const handleLogout = () => {
         localStorage.removeItem("authToken");
         setIsDropdown(!isDropdown);
-
     };
 
     return (
@@ -66,6 +65,9 @@ function Header() {
                         </Link>
                         <Link to="/userform" className="text-sm/6 font-semibold text-gray-900">
                             User Form
+                        </Link>
+                        <Link to="/familycat" className="text-sm/6 font-semibold text-gray-900">
+                            Family Category
                         </Link>
                         <a href="#" className="text-sm/6 font-semibold text-gray-900">
                             Marketplace

@@ -11,6 +11,7 @@ import UserProfile from './components/UserProfile';
 import UserForm from './components/UserForm';
 import Language from './pages/Language';
 import UserEdit from './components/UserEdit';
+import FamilyCategoryItems from './components/FamilyCategoryItems';
 
 
 const Layout = () => {
@@ -41,6 +42,7 @@ function App() {
             <Route path="userform" element={<UserForm />} />
             <Route path="/useredit/:id" element={<UserEdit />} />
             <Route path="language" element={<Language />} />
+            <Route path="familycat" element={<FamilyCategoryItems />} />
           </Route>
         </Routes>
       </Router>
